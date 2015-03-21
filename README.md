@@ -94,6 +94,7 @@ Select "beagleboneblack-eng" (option 10)
 The kernel comes from the Rowboat project. It is version 3.2, without device
 tree support, but it works well enough for this project.
 ```
+$ sudo apt-get install u-boot-tools
 $ cd ~/aosp
 $ git clone https://gitorious.org/rowboat/kernel.git
 $ cd kernel
